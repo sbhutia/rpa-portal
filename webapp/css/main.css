@@ -8,16 +8,34 @@
 	background-color: #eee;
 	padding: 10px;
 	border: solid 1px grey;
+    border-radius: 5px;
 	height:200px;
     cursor: pointer; 
     cursor: hand;
     margin-bottom: 30px;
+    color: darkblue;
+    text-align: center;
+}
+.card:hover{
+    background-color: darkblue;
+    color: white;
 }
 .popup{
-    display: none
+    display: none;
 }
 body{
-    padding-top: 0px
+    padding-top: 0px;
+}
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+.question{
+    font-size: large;
+}
+#questions{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
