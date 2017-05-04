@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+    <!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">RPA Dashboard</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Search" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+-->
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Robotic Process Automation</h1>
+        <p>Free up your employees to do more productive activities by automating manual tasks.</p>
+		<div class="form-group">
+		<input type="text" placeholder="Search" class="form-control">
+		</div>
+            <button type="submit" class="btn btn-success">Search</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+			<div class="card" onclick="rpaDashboard.showPopup()">
+                <h2>Standardisation Tool</h2>
+                <h3>Status : Live </3>
+			</div>
+        </div>
+		 <div class="col-md-4">
+			<div class="card" onclick="rpaDashboard.showPopup()">
+                <h2>UC CAMLite User Setup</h2>
+                <h3>Status : Live </3>
+			</div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" onclick="rpaDashboard.showPopup()">
+                <h2>ESA FIT notes Pilot</h2>
+                <h3>Status : Live </3>
+			</div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" onclick="rpaDashboard.showPopup()">
+                <h2>P300 Siebel User Setup </h2>
+                <h3>Status : In-Progress </3>
+			</div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" onclick="rpaDashboard.showPopup()">
+                <h2>UC Claim Transfers</h2>
+                <h3>Status : In-Progress </3>
+			</div>
+        </div>
+      </div>
+
+    <div id="popup" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h1 class="modal-title">Standardisation Tool</h1>
+          </div>
+          <div class="modal-body">
+            <h3>Description</h3>
+            <p>The standardisation tool robot was developed in UIPath and auomated the entry of data into the tool during the various releases and went live in April 2017.</p>
+            <h3>Description</h3>
+            <p>The standardisation tool robot was developed in UIPath and auomated the entry of data into the tool during the various releases and went live in April 2017.</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

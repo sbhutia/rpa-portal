@@ -1,0 +1,36 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.card{
+	background-color: #eee;
+	padding: 10px;
+	border: solid 1px grey;
+	height:200px;
+    cursor: pointer; 
+    cursor: hand;
+    margin-bottom: 30px;
+}
+.popup{
+    display: none
+}
+body{
+    padding-top: 0px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
